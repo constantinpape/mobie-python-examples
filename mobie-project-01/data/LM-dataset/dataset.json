@@ -1,16 +1,6 @@
 {
-  "is2D": true,
-  "sources": {
-    "overview": {
-      "image": {
-        "imageData": {
-          "bdv.n5": {
-            "relativePath": "images\\bdv-n5\\overview.xml"
-          }
-        }
-      }
-    }
-  },
+  "is2D": false,
+  "sources": {},
   "views": {
     "default": {
       "isExclusive": false,
@@ -31,26 +21,6 @@
         }
       ],
       "uiSelectionGroup": "bookmark"
-    },
-    "overview": {
-      "isExclusive": false,
-      "sourceDisplays": [
-        {
-          "imageDisplay": {
-            "color": "white",
-            "contrastLimits": [
-              0,
-              255
-            ],
-            "name": "overview",
-            "opacity": 1.0,
-            "sources": [
-              "overview"
-            ]
-          }
-        }
-      ],
-      "uiSelectionGroup": "lm"
     }
   }
 }
