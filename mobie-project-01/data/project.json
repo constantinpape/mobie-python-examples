@@ -1,7 +1,0 @@
-{
-  "datasets": [
-    "LM-dataset"
-  ],
-  "defaultDataset": "LM-dataset",
-  "specVersion": "0.3.0"
-}
